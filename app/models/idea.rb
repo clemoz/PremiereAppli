@@ -3,7 +3,7 @@ class Idea < ActiveRecord::Base
   
   def is_doable
     
-    if description.size > 20
+    if description.size > 10
       "non"
     else
       "oui"
